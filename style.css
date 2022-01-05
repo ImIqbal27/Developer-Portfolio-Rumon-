@@ -1,0 +1,49 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto ;
+    
+}
+h1{
+    font-size: 65px;
+    
+}
+
+.margin{
+    border-left: 5px solid rgb(255, 102, 102);
+    padding: 0px  10px;
+}
+.flexible-container{
+    display: flex;
+    padding-left: 5% ;
+    margin-bottom: 100px ;
+
+}
+
+.half-width{
+    width:50% ;
+}
+.half-width  img{
+ width: 60% ;
+ padding-left: 10% ;
+}
+.link-btn{
+    text-decoration: none;
+   
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.mission-vission-goals{
+    display: flex;
+    
+}
+.m-v-g-box{
+    width: 40%;
+    border: 5px solid black;
+    margin-left: 5%;
+
+    margin-right: 5%;
+    background-color: cadetblue;
+    border-radius: 5% ;
+}
