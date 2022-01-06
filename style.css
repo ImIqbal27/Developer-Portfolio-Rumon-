@@ -1,21 +1,38 @@
 body{
     font-family: 'Playfair Display', serif;
     margin: 0 auto ;
+   width: 95% ; 
+    
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 40px ;
     
 }
 h1{
     font-size: 65px;
     
 }
+h2 {
+    font-size: 50px ;
+    text-align:center ;
 
-.margin{
+}
+h3{
+    font-size: 45px ;
+
+}
+
+
+.margin-focused{
     border-left: 5px solid rgb(255, 102, 102);
     padding: 0px  10px;
 }
 .flexible-container{
     display: flex;
     padding-left: 5% ;
-    margin-bottom: 100px ;
+    
 
 }
 
@@ -24,7 +41,7 @@ h1{
 }
 .half-width  img{
  width: 60% ;
- padding-left: 10% ;
+ padding-left: 20% ;
 }
 .link-btn{
     text-decoration: none;
@@ -32,18 +49,58 @@ h1{
     color: white;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 20px;
+  
     border-radius: 5px;
+   
+    
+    
 }
 .mission-vission-goals{
     display: flex;
+    margin-bottom: 100px ;
     
+}
+.mission-vission-goals img{
+    width: 120px;
+    height: 120px;
+    padding-left: 5% ;
+}
+.mission-vission-goals h4{
+    padding-left: 20px ;
+    font-size: 25px;
+}
+.mission-vission-goals p{
+    padding: 15px;
+}
+.mission-box{
+    background-color:lightblue ;
+}
+.vission-box{
+    background-color: wheat;
+}
+.goals-box{
+   background-color:antiquewhite
 }
 .m-v-g-box{
     width: 40%;
-    border: 5px solid black;
+   
     margin-left: 5%;
 
     margin-right: 5%;
-    background-color: cadetblue;
-    border-radius: 5% ;
+   
+    border-radius: 4% ;
+}
+
+
+
+
+footer p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer{
+    color: white;
+    
+    background-color: rgb(12, 12, 19);
 }
