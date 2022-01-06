@@ -32,6 +32,8 @@ h3{
 .flexible-container{
     display: flex;
     padding-left: 5% ;
+    padding-right: 3% ;
+    margin-bottom: 100px ;
     
 
 }
@@ -57,6 +59,8 @@ h3{
 }
 .mission-vission-goals{
     display: flex;
+   align-items: center ;
+    justify-content:center ;
     margin-bottom: 100px ;
     
 }
@@ -64,22 +68,26 @@ h3{
     width: 120px;
     height: 120px;
     padding-left: 5% ;
+    
 }
 .mission-vission-goals h4{
     padding-left: 20px ;
     font-size: 25px;
+   
 }
 .mission-vission-goals p{
     padding: 15px;
+    margin-bottom: 0;
 }
 .mission-box{
-    background-color:lightblue ;
+    background-color:rgb(204, 230, 255) ;
 }
 .vission-box{
-    background-color: wheat;
+    background-color: rgb(255, 230, 243) ;
 }
 .goals-box{
-   background-color:antiquewhite
+    background-color:   rgb(255, 235, 204) ;
+ 
 }
 .m-v-g-box{
     width: 40%;
@@ -91,6 +99,18 @@ h3{
     border-radius: 4% ;
 }
 
+.limits1{
+    width: 45% ;
+    
+   
+
+}
+.limits2{
+    width: 55% ;
+   
+    
+
+}
 
 
 
